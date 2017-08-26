@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>Synthetic Biology</title>
+	<title>BioBrick Assembly</title>
 	<link href="css/index.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="css/materialize.css" rel="stylesheet" type="text/css" media="screen,projection">
@@ -11,23 +10,54 @@
 	<script type="text/javascript" src="js/index.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+	<script>
+	/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+	function openNav() {
+	    document.getElementById("sideNavigation").style.width = "250px";
+	    document.getElementById("main").style.marginLeft = "250px";
+	}
+	/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+	function closeNav() {
+	    document.getElementById("sideNavigation").style.width = "0";
+	    document.getElementById("main").style.marginLeft = "0";
+	}
+	/*  //Jquery example
+	$('.topnav a').click(function(){
+	  $('#sideNavigation').style.width = "250px";
+	  $("#main").style.marginLeft = "250px";
+	});
+	$('.closebtn').click(function(){
+	  $('#sideNavigation').style.width = "0";
+	  $("#main").style.marginLeft = "0";
+	});*/
+	</script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
-
-
 <body>
+  <div id="sideNavigation" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Features</a>
+    <a href="#">Contact Us</a>
+  </div>
 
-<div class="flex-container">
-	<div class="flex-item">
-	<div id="nav-icon">
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-	</div>
-</div>
-</div>
+  <nav class="topnav">
+    <a href="#" onclick="openNav()">
+      <svg width="30" height="30" id="icoOpen">
+          <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+          <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+          <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+      </svg>
+    </a>
+  </nav>
+
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+		<div class="flex-container title">
+
+			<h3>HOME</h3>
+
+		</div>
+
 </body>
-
 </html>
