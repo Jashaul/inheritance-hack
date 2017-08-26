@@ -50,9 +50,10 @@ h3 {
 	height: 300px;
 }
 
-.text-flex {
-	flex: 3;
-	text-align: center;
+.card0 {
+	flex: 1;
+	width: 50%;
+	justify-content: center;
 }
 	
 	#nav-icon {
