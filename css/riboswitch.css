@@ -1,0 +1,22 @@
+h1
+{
+   font-family: Impact,Charcoal, sans-serif;
+}
+
+.center
+{
+   display: block;
+   margin: auto;
+   width: 40%;
+}
+
+body
+{
+  background: #ffd89b;
+  background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
+  background: linear-gradient(to right, #ffd89b, #19547b);
+}
+
+.pause {
+    animation-play-state: paused;
+}
