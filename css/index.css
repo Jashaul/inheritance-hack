@@ -3,10 +3,23 @@
   padding: 0;
 }
 
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: lightgrey;
+}
+
+
+.flex-item {
+}
+
 #nav-icon {
   width: 60px;
   height: 45px;
-  position: relative; 
+  position: relative;
   margin: 50px auto;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
