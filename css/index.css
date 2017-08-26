@@ -7,13 +7,14 @@
 .flex-container {
   display: -webkit-flex;
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100px;
   background-color: lightgrey;
 }
 
-
 .flex-item {
+
 }
 
 #nav-icon {
