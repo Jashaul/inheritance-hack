@@ -1,13 +1,40 @@
 h1
 {
    font-family: Impact,Charcoal, sans-serif;
+   font-size: 70px;
+   text-decoration: underline;
 }
 
+.paraset
+{
+   letter-spacing: 2px;
+   font-weight: bold;
+   font-size: 23px;
+   margin-bottom: 10px;
+   margin-top:10px;
+   margin-left: 50px;
+   padding-left: 15px;
+   margin-right:50px;
+}
+
+p3
+{
+   letter-spacing: 1px;
+   font-weight:lighter;
+   font-size: 18px;
+}
 .center
 {
    display: block;
    margin: auto;
    width: 40%;
+   padding: 20px;
+}
+
+.blockquote
+{
+   background: #1fb5f6;
+  padding: 60px 0 40px 0;
 }
 
 body
@@ -19,4 +46,11 @@ body
 
 .pause {
     animation-play-state: paused;
+}
+
+h2
+{
+   text-align: left;
+   font-family: Impact,Charcoal, sans-serif;
+   font-size: 23px;
 }
