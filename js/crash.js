@@ -3,7 +3,7 @@ $(document).ready(function(){
 		$(this).toggleClass('open');
 		if($('#mySidenav').css('width') === '400px')
 			$('#mySidenav').css('width', '0px');
-		else 
+		else
 			$('#mySidenav').css('width', '400px');
 	});
 });
