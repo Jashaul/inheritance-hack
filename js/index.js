@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$('#nav-icon').click(function(){
 		$(this).toggleClass('open');
 		if($('#mySidenav').css('width') === '400px')
@@ -6,4 +7,5 @@ $(document).ready(function(){
 		else 
 			$('#mySidenav').css('width', '400px');
 	});
+
 });

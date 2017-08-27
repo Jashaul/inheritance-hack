@@ -14,6 +14,11 @@ h3 {
 	text-align: center;
 }
 
+.text1 {
+	justify-content: center;
+	height: 200px;
+}
+
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0px; /* 0 width - change this with JavaScript */
