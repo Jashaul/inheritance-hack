@@ -5,6 +5,8 @@ h1
    text-decoration: underline;
 }
 
+
+
 .paraset
 {
    letter-spacing: 2px;
@@ -17,11 +19,17 @@ h1
    margin-right:50px;
 }
 
+.aspect
+{
+   width:auto;
+   height:80% ;
+}
+
 p3
 {
    letter-spacing: 1px;
-   font-weight:lighter;
    font-size: 18px;
+   font-weight: lighter;
 }
 .center
 {
@@ -33,10 +41,18 @@ p3
 
 .blockquote
 {
-   background: #1fb5f6;
-  padding: 60px 0 40px 0;
+   background:#F5F5F5;
+margin-bottom: 10px;
+margin-left: 50px;
+padding-left: 15px;`
+border-left: 3px solid #ccc;
 }
 
+.align-right
+{
+   display: block;
+   margin: auto;
+}
 body
 {
   background: #ffd89b;
@@ -53,4 +69,9 @@ h2
    text-align: left;
    font-family: Impact,Charcoal, sans-serif;
    font-size: 23px;
+}
+
+h4{
+   padding-top: 20px;
+
 }
